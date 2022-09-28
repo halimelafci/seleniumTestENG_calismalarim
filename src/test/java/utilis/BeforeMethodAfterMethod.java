@@ -20,11 +20,11 @@ public class BeforeMethodAfterMethod {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         actions=new Actions(driver);
     }
     @AfterMethod
     public void tearDown() {
-        driver.close();
+        //driver.close();
     }
 }

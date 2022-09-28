@@ -12,11 +12,11 @@ import java.time.Duration;
 
 public class BeforeClassAfterClass {
 
-    protected static WebDriver driver;
-    protected static Actions actions;
+    protected  WebDriver driver;
+    protected  Actions actions;
 
     @BeforeClass
-    public static void setUp(){
+    public  void setUp(){
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.manage().window().maximize();
