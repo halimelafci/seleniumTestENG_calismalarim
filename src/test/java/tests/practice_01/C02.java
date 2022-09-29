@@ -1,9 +1,8 @@
-package tests.practice;
+package tests.practice_01;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilis.BeforeClassAfterClass;
 import utilis.BeforeMethodAfterMethod;
 
 public class C02 extends BeforeMethodAfterMethod {

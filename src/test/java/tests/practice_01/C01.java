@@ -1,10 +1,9 @@
-package tests.practice;
+package tests.practice_01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import utilis.BeforeClassAfterClass;
 import utilis.BeforeMethodAfterMethod;
 
 public class C01 extends BeforeMethodAfterMethod {
