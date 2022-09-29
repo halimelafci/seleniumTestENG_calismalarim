@@ -14,7 +14,7 @@ public class C01 {
     public void test01(){
 
         DhtmlgoodiesPage dhtmlgoodiesPage=new DhtmlgoodiesPage();
-        Actions actions=new Actions(Driver.getDriver);
+        Actions actions=new Actions(Driver.getDriver());
 
        //actions.dragAndDrop(dhtmlgoodiesPage.oslo,dhtmlgoodiesPage.norway).perform();
        //actions.dragAndDrop(dhtmlgoodiesPage.stockholm,dhtmlgoodiesPage.sweden).perform();
