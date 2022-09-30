@@ -7,6 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class Driver {
+
+   private Driver(){
+
+    }
+
     static WebDriver driver;
     /*
     Testlerimizi çalıştırdığımızda her seferinde yeni driver oluşturduğu için her test methodu
