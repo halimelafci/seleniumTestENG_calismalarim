@@ -19,7 +19,7 @@ public class C02_SmokeNegatifTest {
             Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
             HMCPage hmcPage = new HMCPage();
             //login butonuna bas
-            hmcPage.login.click();
+            hmcPage.ilkLogin.click();
             //test data username: manager1 ,  test data password : manager1!
             hmcPage.username.sendKeys(ConfigReader.getProperty("HMCWrongUserName"));
             Actions actions = new Actions(Driver.getDriver());
@@ -40,7 +40,7 @@ public class C02_SmokeNegatifTest {
         Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
         HMCPage hmcPage = new HMCPage();
         //login butonuna bas
-        hmcPage.login.click();
+        hmcPage.ilkLogin.click();
         //test data username: manager1 ,  test data password : manager1!
         hmcPage.username.sendKeys(ConfigReader.getProperty("HMCValidUserName"));
         Actions actions = new Actions(Driver.getDriver());
@@ -57,7 +57,7 @@ public class C02_SmokeNegatifTest {
         Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
         HMCPage hmcPage = new HMCPage();
         //login butonuna bas
-        hmcPage.login.click();
+        hmcPage.ilkLogin.click();
         //test data username: manager1 ,  test data password : manager1!
         hmcPage.username.sendKeys(ConfigReader.getProperty("HMCWrongUserName"));
         Actions actions = new Actions(Driver.getDriver());

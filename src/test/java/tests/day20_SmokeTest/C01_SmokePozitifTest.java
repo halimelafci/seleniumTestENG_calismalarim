@@ -19,7 +19,7 @@ public class C01_SmokePozitifTest {
         Page classımızdan bir obje oluşturarak, oluşturmuş olduğumuz obje ile
         page classımızdaki locate'lerimize ulaşabiliriz
          */
-        hmcPage.login.click();
+        hmcPage.ilkLogin.click();
         //test data username: manager ,
         //test data password : Manager1!
         hmcPage.username.sendKeys(ConfigReader.getProperty("HMCValidUserName"));

@@ -14,11 +14,11 @@ public class C02_HMC_ConfigReader {
         //https://www.hotelmycamp.com/ adresine git  login butonuna bas
         Driver.getDriver().get(ConfigReader.getProperty("HMCUrl"));
         HMCPage hmcpage =new HMCPage();
-        hmcpage.login.click();
+        hmcpage.ilkLogin.click();
 
         hmcpage.username.sendKeys(ConfigReader.getProperty("HMCValidUserName"));
         hmcpage.password.sendKeys(ConfigReader.getProperty("HMCValidPassword"));
-        hmcpage.giris.click();
+        hmcpage.login.click();
 
         //Degerleri girildiginde sayfaya basarili sekilde girilebildigini test et
 
