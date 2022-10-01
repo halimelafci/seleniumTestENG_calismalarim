@@ -26,4 +26,7 @@ public class HMCPage {
 
     @FindBy(xpath = "//div[@class=\"page-bar\"]")
     public WebElement basariliGiris;
+
+    @FindBy(xpath = "//h2[text()='Log in']")
+    public WebElement basarisizGiris;
 }
