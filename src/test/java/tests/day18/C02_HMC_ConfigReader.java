@@ -3,8 +3,8 @@ package tests.day18;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HMCPage;
-import utilis.ConfigReader;
-import utilis.Driver;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 public class C02_HMC_ConfigReader {
 

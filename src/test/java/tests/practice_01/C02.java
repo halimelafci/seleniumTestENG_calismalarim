@@ -3,7 +3,7 @@ package tests.practice_01;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilis.BeforeMethodAfterMethod;
+import utilities.BeforeMethodAfterMethod;
 
 public class C02 extends BeforeMethodAfterMethod {
 

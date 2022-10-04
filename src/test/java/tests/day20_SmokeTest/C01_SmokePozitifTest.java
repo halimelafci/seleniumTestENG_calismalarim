@@ -5,8 +5,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HMCPage;
-import utilis.ConfigReader;
-import utilis.Driver;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 public class C01_SmokePozitifTest {
 

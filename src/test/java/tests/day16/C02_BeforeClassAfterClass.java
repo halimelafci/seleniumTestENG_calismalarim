@@ -2,7 +2,7 @@ package tests.day16;
 
 
 import org.testng.annotations.Test;
-import utilis.BeforeClassAfterClass;
+import utilities.BeforeClassAfterClass;
 
 public class C02_BeforeClassAfterClass extends BeforeClassAfterClass {
 

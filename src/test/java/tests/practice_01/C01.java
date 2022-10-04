@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import utilis.BeforeMethodAfterMethod;
+import utilities.BeforeMethodAfterMethod;
 
 public class C01 extends BeforeMethodAfterMethod {
 

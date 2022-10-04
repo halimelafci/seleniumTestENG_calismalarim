@@ -1,7 +1,7 @@
 package tests.day17;
 
 import org.testng.annotations.Test;
-import utilis.BeforeMethodAfterMethod;
+import utilities.BeforeMethodAfterMethod;
 
 public class C01_DependsOnMethod extends BeforeMethodAfterMethod {
 

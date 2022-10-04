@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.WebUniversityPage;
-import utilis.Driver;
+import utilities.Driver;
 
 import java.util.ArrayList;
 import java.util.Arrays;

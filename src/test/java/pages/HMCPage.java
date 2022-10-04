@@ -1,11 +1,10 @@
 package pages;
 
-import org.apache.commons.compress.archivers.zip.X000A_NTFS;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utilis.ConfigReader;
-import utilis.Driver;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 public class HMCPage {
 

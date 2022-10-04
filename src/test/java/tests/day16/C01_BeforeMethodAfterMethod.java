@@ -2,7 +2,7 @@ package tests.day16;
 
 
 import org.testng.annotations.Test;
-import utilis.BeforeMethodAfterMethod;
+import utilities.BeforeMethodAfterMethod;
 
 public class C01_BeforeMethodAfterMethod extends BeforeMethodAfterMethod {
 

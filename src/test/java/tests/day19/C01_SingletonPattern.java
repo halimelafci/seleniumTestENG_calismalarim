@@ -1,8 +1,8 @@
 package tests.day19;
 
 import org.testng.annotations.Test;
-import utilis.ConfigReader;
-import utilis.Driver;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 public class C01_SingletonPattern {
 
