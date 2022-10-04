@@ -22,4 +22,6 @@ public class FacebookPage {
 
        @FindBy(xpath = "//div[@class=\"_9ay7\"]")
         public WebElement girisYapilamadi;
+
+
 }
