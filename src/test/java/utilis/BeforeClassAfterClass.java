@@ -15,7 +15,7 @@ public class BeforeClassAfterClass {
     protected  WebDriver driver;
     protected  Actions actions;
 
-    @BeforeClass
+    @BeforeClass(groups = "grup1")
     public  void setUp(){
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
@@ -25,7 +25,7 @@ public class BeforeClassAfterClass {
 
     }
 
-    @AfterClass
+    @AfterClass(groups = "grup1")
     public static void tearDown(){
         //driver.quit();
     }

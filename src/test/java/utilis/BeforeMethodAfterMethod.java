@@ -14,7 +14,7 @@ public class BeforeMethodAfterMethod {
     protected WebDriver driver;
     protected Actions actions;
 
-    @BeforeMethod
+    @BeforeMethod(groups = "grup1")
     public void setUp(){
 
         WebDriverManager.chromedriver().setup();
@@ -23,8 +23,8 @@ public class BeforeMethodAfterMethod {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         actions=new Actions(driver);
     }
-    @AfterMethod
+    @AfterMethod(groups = "grup1")
     public void tearDown() {
-        //driver.close();
+        driver.close();
     }
 }

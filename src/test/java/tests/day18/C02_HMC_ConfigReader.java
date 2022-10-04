@@ -8,7 +8,7 @@ import utilis.Driver;
 
 public class C02_HMC_ConfigReader {
 
-    @Test
+    @Test(groups = "grup2")
     public void test01() {
 
         //https://www.hotelmycamp.com/ adresine git  login butonuna bas

@@ -10,7 +10,7 @@ public class C01_FacebookTest {
 
 
 
-    @Test
+    @Test(groups = "grup2")
     public void test01(){
 
         FacebookPage facebookPage=new FacebookPage();
