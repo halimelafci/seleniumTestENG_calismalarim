@@ -10,8 +10,8 @@ public class C01_SingletonPattern {
     @Test
     public void test01(){
 
-        Driver obj=new Driver();
-        obj.getDriver().get(ConfigReader.getProperty("amazonUrl"));
+
+        Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
        /*
         driver classinda default cons yerine privite bir cons olusturduk ve bu sekilde
