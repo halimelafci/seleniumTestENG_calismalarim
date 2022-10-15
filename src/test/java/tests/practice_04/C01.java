@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HerokuTestPage;
+import tests.pages.HerokuTestPage;
 import utilities.Driver;
 
 import java.util.List;

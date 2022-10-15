@@ -2,7 +2,7 @@ package tests.day21;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
-import pages.AmazonPage;
+import tests.pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;

@@ -2,7 +2,7 @@ package tests.day22;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.BrcPage;
+import tests.pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.TestBaseRapor;

@@ -2,7 +2,7 @@ package tests.day18;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HMCPage;
+import tests.pages.HMCPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

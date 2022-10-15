@@ -1,9 +1,8 @@
 package tests.practice_05;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.AutomationePage;
+import tests.pages.AutomationePage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.TestBaseRapor;

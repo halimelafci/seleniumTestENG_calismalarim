@@ -2,7 +2,7 @@ package tests.practice_02;
 
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-import pages.DhtmlgoodiesPage;
+import tests.pages.DhtmlgoodiesPage;
 import utilities.Driver;
 
 public class C01 {

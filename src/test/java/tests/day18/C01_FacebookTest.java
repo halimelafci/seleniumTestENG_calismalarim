@@ -3,7 +3,7 @@ package tests.day18;
 import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.FacebookPage;
+import tests.pages.FacebookPage;
 import utilities.Driver;
 
 public class C01_FacebookTest {
